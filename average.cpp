@@ -16,7 +16,7 @@ int main() {
     float averageSum = 0.0;
 
     // input
-    for (int loopCounter = 0; loopCounter < 11; loopCounter++) {
+    for (int loopCounter = 0; loopCounter < 10; loopCounter++) {
         std::random_device rseed;
         std::mt19937 rgen(rseed());
         std::uniform_int_distribution<int> idist(1, 100);
